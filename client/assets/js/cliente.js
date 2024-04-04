@@ -46,7 +46,7 @@ btnEnviar.addEventListener("click", async function (event) {
       imagenContainer.appendChild(imagen);
       console.log("Imagen insertada correctamente");
       modal.style.display = "block";
- 
+
     } else {
       console.log("No se pudo guardar la imagen");
     }

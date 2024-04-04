@@ -7,9 +7,7 @@ npm run start ( previamenente instalando dependencias respectivas)
 
 
 para correr cliente 
-live server
+live server con configuracion en carpeta .vscode y no se actualice el navegador 
 
-la APP funciona, solo que se renderiza la imagen en pantalla y luego se reinicia el cliente ( no supimos porque pero supusimos que jimp es el culpable)
-piedad con ese error en la evaluacion :P
 
 saludooos
