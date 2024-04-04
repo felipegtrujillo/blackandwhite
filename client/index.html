@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" defer src="./assets/js/cliente.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Black and White SPA</title>
+  </head>
+  <body>
+    <div id="form">
+    <h1>Black and White SPA</h1>
+    <form>
+      Imagen URL:
+      <input id="input" name="ruta" />
+      <br />
+      <button id="btn" type="button">Subir Imagen Al servidor</button>
+    </form>
+     </div>
+    <div id="modal" class="modal">
+      <div id="imagen-modal" class="modal-content">
+          <span class="close">&times;</span>
+          <div id="imagen-container"></div>
+      </div>
+  </div>
+  </body>
+</html>
